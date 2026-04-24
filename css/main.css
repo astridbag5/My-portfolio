@@ -1,0 +1,114 @@
+#bienvenidos {
+    font-family: Stack Sans Text;
+    font-weight: 700;
+}
+#Hola {
+    font-family: Stack Sans Text;
+    font-weight: 700;  
+}
+body {
+    font-family: Stack Sans Text;
+    font-weight: 200;
+}
+.text-gradient {
+    background: linear-gradient(90deg, #0d6efd, #00d2ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.transform-hover {
+    transition: transform 0.4s ease;
+}
+
+.transform-hover:hover {
+    transform: scale(1.02) translateY(-10px);
+}
+
+.icon-box {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Efecto hover para los enlaces del footer */
+.footer-link {
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.footer-link:hover {
+    color: var(--bs-primary) !important;
+    transform: translateX(5px);
+}
+
+/* Estilo para los botones de redes sociales */
+.social-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    background-color: var(--bs-primary);
+    color: white !important;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(13, 110, 253, 0.3);
+}
+
+/* Personalización del input para que combine con el primary */
+.form-control:focus {
+    border-color: var(--bs-primary);
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.15);
+}
+/* Efecto para las tarjetas de software */
+.skill-card {
+    transition: all 0.3s ease;
+    border: 1px solid transparent !important;
+}
+
+.skill-card:hover {
+    background-color: #fff !important;
+    border-color: var(--bs-primary) !important;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(13, 110, 253, 0.1) !important;
+}
+
+/* Animación de las barras de progreso al cargar (opcional) */
+.progress-bar {
+    transition: width 1.5s ease-in-out;
+}
+
+/* Estilo para los iconos de la sección */
+.bi-code-square, .bi-stack {
+    font-size: 1.5rem;
+}
+/* Contenedor de la tarjeta */
+.project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(13, 110, 253, 0.15) !important;
+}
+
+/* Efecto de zoom en la imagen */
+.project-img {
+    transition: transform 0.5s ease;
+    height: 220px;
+    object-fit: cover;
+}
+
+.project-card:hover .project-img {
+    transform: scale(1.1);
+}
+
+/* Ajuste del botón */
+.btn-primary {
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
